@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="registracija.css">
+    <title>Registracija</title>
+</head>
+<body>
+    <div id="registration-container">
+        <div class="registration">
+            <h3>Registracija</h3>
+            <form id="registration-form" action="register.php" method="POST">
+                <div class="form-row">
+                    <div class="form-column">
+                        <label for="name">Vardas</label>
+                        <input type="text" id="name" name="name" placeholder="Įveskite savo vardą" required>
+                    </div>
+                    <div class="form-column">
+                        <label for="surname">Pavardė</label>
+                        <input type="text" id="surname" name="surname" placeholder="Įveskite savo pavardę" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-column">
+                        <label for="email">El. paštas</label>
+                        <input type="email" id="email" name="email" placeholder="Įveskite savo el. paštą" required>
+                    </div>
+                    <div class="form-column">
+                        <label for="phone">Telefono numeris</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Įveskite savo telefono numerį">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-column">
+                        <label for="password">Slaptažodis</label>
+                        <input type="password" id="password" name="password" placeholder="Įveskite slaptažodį" required>
+                    </div>
+                    <div class="form-column">
+                        <label for="confirm-password">Patvirtinkite slaptažodį</label>
+                        <input type="password" id="confirm-password" placeholder="Pakartokite slaptažodį" required>
+                    </div>
+                </div>
+                <button type="submit">Registruotis</button>
+            </form>
+            <a href="prisijungimas.html">Jau turite paskyrą? Prisijunkite čia</a>
+        </div>
+    </div>
+</body>
+</html>

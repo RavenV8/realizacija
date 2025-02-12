@@ -1,0 +1,191 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            height: 100vh;
+            background-color: #f5f5f5;
+            padding-left: 2rem;
+        }
+
+        .container, .menu, .login, .registration, .send {
+            text-align: left;
+            background-color: #f0f0f0;
+            padding: 20px;
+            margin-top: 110px;
+            margin-left: 100px;
+            width: 100%;
+            max-width: 400px;
+            border-radius: 8px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h3 {
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
+
+        /* Menu */
+        .menu ul {
+            list-style-type: none;
+            margin-bottom: 20px;
+        }
+
+        .menu ul li {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .menu ul li a {
+            text-decoration: none;
+            color: #000;
+            font-size: 18px;
+        }
+
+        /* Form styling */
+        form label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        form input, form select, form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        form button {
+            padding: 10px;
+            width: 100%;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        form button:hover {
+            background-color: #45a049;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        textarea {
+            resize: none;
+        }
+        ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+li span {
+    float: right;
+    font-weight: bold;
+}
+
+/* Styling for the parcel locker addresses with scroll */
+.parcel-lockers {
+    background-color: #fff;
+    padding: 15px;
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    max-height: 300px;  /* Set the max height */
+    overflow-y: auto;   /* Enable vertical scroll */
+}
+
+.parcel-lockers h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+.parcel-lockers ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0; /* Removed margin to fit the scroll */
+}
+
+.parcel-lockers li {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.parcel-lockers li:last-child {
+    border-bottom: none; /* Remove the border from the last item */
+}
+
+.parcel-lockers li span {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Styling for smooth scrolling */
+.parcel-lockers::-webkit-scrollbar {
+    width: 8px; /* Width of the scrollbar */
+}
+
+.parcel-lockers::-webkit-scrollbar-thumb {
+    background-color: #ccc; /* Color of the scrollbar */
+    border-radius: 10px; /* Rounded corners for the scrollbar */
+}
+
+ /* General form styling */
+ form label {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    form input {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    form button {
+        padding: 10px;
+        width: 100%;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    form button:hover {
+        background-color: #45a049;
+    }
+
+    .row {
+        display: flex;
+        gap: 20px;
+    }
+
+    .column {
+        flex: 1;
+    }
